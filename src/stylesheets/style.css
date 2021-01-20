@@ -1,10 +1,67 @@
-h1 {
-    color: #ffffff;
-    
+html, body {
+    height: 100%;
 }
 
 body {
-    background: #f4fc04;
+    background-color: #f4fc04;
     margin: 0;
     padding: 0;
-  }
+}
+
+h1 {
+    color: #ffffff;    
+}
+
+.logo {
+    max-width: -webkit-fill-available;
+    max-width: 100vw;
+}
+
+.center-h {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.center-v {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lines {
+    background-image: url("../images/img-orange-lines.png");
+}
+
+#sect-one {
+    background-image: url("../images/img-beefcake-man.png");
+}
+
+#sect-two {
+    background-image: url("../images/img-beefcake-man.png");
+}
+
+#sect-three {
+
+}
+
+
